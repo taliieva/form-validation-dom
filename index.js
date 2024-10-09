@@ -39,10 +39,10 @@ function checkRequired(inputs) {
 
 function checkLength(input, min, max){
     if(input.value.length < min){
-        error(input, 'min')
+        error(input, 'min size')
     }
     else if(input.value.length > max){
-        error(input, 'max')
+        error(input, 'max size')
     }
     else{
         success(input)
